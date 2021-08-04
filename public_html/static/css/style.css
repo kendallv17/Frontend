@@ -1,0 +1,71 @@
+
+ 
+ 
+ .collapse ul li a::after{
+     content:'';
+     width: 0%;
+     height: 2px;
+     background: rgba(184, 233, 255, 0.7);
+     display:block;
+     margin:auto;
+     transition: 0.5s;
+   }
+   .collapse  ul li a:hover::after{
+   width: 100%;
+  }
+ 
+ 
+
+ 
+  .navbar-nav .nav-link {
+    font-size: 16px;
+ }
+ 
+ 
+  body{
+     background-color:white
+  }
+ 
+  .top-bar span{
+    font-size: 15px;
+    padding: 1px 5px;
+  }
+ 
+ 
+ 
+  .bg{
+     background-color: rgb(184, 214, 253);
+  }
+ 
+  .text-left{
+     border-left:1px solid rgb(205, 205, 228);
+  }
+ 
+ #navbar{
+    background-color:white;
+    border-bottom: 1px solid rgb(212, 212, 212);
+
+ }
+
+.container h5{
+   font-size: 22px;
+   color: gray;
+}
+
+th{
+    color: gray;
+}
+
+
+.box1{
+   height: 300px;
+   width: 40%;
+   display: table;
+}
+
+
+.box2{
+    height: 300px;
+    width: 70%;
+    display: table;
+}
